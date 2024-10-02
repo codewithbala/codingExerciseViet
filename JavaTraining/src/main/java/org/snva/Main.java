@@ -45,9 +45,9 @@ public class Main {
         firstPrimeNumber.nfirstPrimeNumber(50);
  //       System.out.println("---------7 Is a prime number : " + primeNumber.Isprime(9));
 
-        System.out.println("\nGreatest Common Number : 15, 35");
+        System.out.println("\nGreatest Common Number : 35, 15");
         GreatestCommonDivisor greatestCommonDivisor = new GreatestCommonDivisor();
-        System.out.println(greatestCommonDivisor.getGreatestCommonDivisor(15,35));
+        System.out.println(greatestCommonDivisor.getGreatestCommonDivisor(21,15));
 
 
     }

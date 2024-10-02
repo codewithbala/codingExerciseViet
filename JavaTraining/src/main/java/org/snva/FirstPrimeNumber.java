@@ -20,4 +20,3 @@ public class FirstPrimeNumber {
     }
 
 }
-// add test for GitHub
