@@ -1,11 +1,11 @@
 package org.snva;
 
-public class FirstPrimeNumber {
+public class FirstPrimeNumberSix {
 
     static public void nfirstPrimeNumber(int n){
         int count=1;
         int nb =1;
-        PrimeNumber primeNumber=new PrimeNumber();
+        PrimeNumberFive primeNumber=new PrimeNumberFive();
         while (count<=n) {
             if(primeNumber.Isprime(nb)) {
                 System.out.print(nb+";");
