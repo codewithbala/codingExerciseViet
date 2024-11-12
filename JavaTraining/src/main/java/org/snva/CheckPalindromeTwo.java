@@ -27,4 +27,11 @@ public class CheckPalindromeTwo {
         return (true);
     }
 
+    public boolean palindromewithStringbuilder(String str){
+        StringBuilder stringBuilder = new StringBuilder(str);
+        String strReverse = stringBuilder.reverse().toString();
+        return(str.equals(strReverse ));
+
+    }
+
 }
